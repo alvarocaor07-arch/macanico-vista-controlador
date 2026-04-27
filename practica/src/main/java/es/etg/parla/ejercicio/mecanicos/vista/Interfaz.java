@@ -30,7 +30,7 @@ public class Interfaz {
         System.out.println("4. " + MENU_SALIR);
     }
 
-    // 🔹 LEER DATOS
+
     public String leerString(String msg) {
         System.out.print(msg + ": ");
         return sc.nextLine();
@@ -40,7 +40,7 @@ public class Interfaz {
         return Integer.parseInt(leerString(msg));
     }
 
-    // 🔹 MENSAJES
+  
     public void imprimir(String msg) {
         System.out.println(msg);
     }
